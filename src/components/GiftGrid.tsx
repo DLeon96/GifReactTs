@@ -1,6 +1,6 @@
 import { GiftItem } from "./GiftItem";
 import { useFetchGifts } from "../hooks/useFetchGifts";
-import { IsLoading } from "../../utils/IsLoading";
+import { IsLoading } from "../utils/IsLoading";
 
 interface GiftGridProps {
     category: string;
